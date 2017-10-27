@@ -38,7 +38,7 @@ gem 'spree_gateway', '~> 3.3'
 
 gem 'aws-sdk'
 
-gem 'timber', '~> 2.1'
+gem 'timber', '~> 2.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
