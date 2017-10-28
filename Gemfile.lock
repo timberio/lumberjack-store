@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/timberio/timber-ruby.git
+  revision: 28a780c3aa2f650ac5e2998f060b580c9190beea
+  branch: encoding-hotfix
+  specs:
+    timber (2.5.1)
+      msgpack (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -755,8 +763,6 @@ GEM
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
-    timber (2.5.1)
-      msgpack (~> 1.0)
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.3)
@@ -806,7 +812,7 @@ DEPENDENCIES
   spree_gateway (~> 3.3)
   spring
   spring-watcher-listen (~> 2.0.0)
-  timber (~> 2.5)
+  timber!
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
